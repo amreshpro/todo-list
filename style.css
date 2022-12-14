@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Martian Mono',sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(253, 154, 6);
+}
+
+
+.container-todo{
+    padding: 10px;
+}
+
+
+table{
+    width: 90vw;
+    margin-top: 40px;
+    border: 1px solid rgb(158, 0, 250);
+ margin-left: 5px;
+ margin-right: 5px;
+
+}
+tbody{
+    padding: 10px 0 10px 0;
+}
+
+.title{
+    padding: 10px 0 10px 0;
+    background-color: darkgreen;
+    color: #fff;
+}
+
+#msg{
+ 
+    color: #ec4242;
+    display: none;
+}
+
+
+#inputBox{
+    padding: 5px;
+    font-size: 20px;
+   border: 1px solid #a7a1a1;
+   margin-right: 10px;
+}
+
+
+#inputBox:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+ }
+
+#addBtn{
+    margin: 5px;
+    border: none;
+    background-color: #3ab3eb;
+    color: #fff;
+    padding: 6px 8px 6px 8px; 
+  
+
+ 
+    font-size: 20px;
+}
+
+
+
+.delete-link{
+    color: red;
+}
+
+
+
+/* make table attractive */
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  tr:nth-of-type(even) { 
+    background: rgb(155, 152, 158); 
+  }
+
+
+
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+  }
+
+
+
