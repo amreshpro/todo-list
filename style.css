@@ -85,12 +85,15 @@ table {
   }
   /* Zebra striping */
   tr:nth-of-type(odd) { 
-    background: #eee; 
+    background: #ee82ee  ; 
   }
   tr:nth-of-type(even) { 
-    background: rgb(155, 152, 158); 
+    background:#6a5acd; 
   }
 
+td{
+color:#fff;
+}
 
 
   th { 
