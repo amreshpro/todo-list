@@ -72,7 +72,7 @@ tbody{
 
 
 .delete-link{
-    color: #87CEEB  ;
+    color:#FF2400 ;
 }
 
 
@@ -85,7 +85,7 @@ table {
   }
   /* Zebra striping */
   tr:nth-of-type(odd) { 
-    background: #ee82ee  ; 
+    background: #fff  ; 
   }
   tr:nth-of-type(even) { 
     background:#6a5acd; 
